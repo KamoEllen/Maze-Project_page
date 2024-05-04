@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALX 3D Ray-Casting Game</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Added margin */
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #ddd;
+    border-top: 1px solid #ccc;
+}
+
+.temp {
+    position: fixed;
+    top: 390px; /* Adjusted top position */
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.temp img {
+    max-width: 300px; /* 3 times larger */
+}
+
+.hero {
+    position: fixed;
+    top: 45%;
+    right: 20px; /* Adjusted right position */
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.hero img {
+    max-width: 300px; /* 3 times larger */
+}
+
+</style>
+</head>
+<body>
+<div class="temp">
+    <img src="temp.gif" alt="Temp Image">
+</div>
+<div class="container">
+    <h1>ALX Software Engineering Final Project</h1>
+    <h2>3D Ray-Casting Game</h2>
+    
+    <h3>Introduction:</h3>
+    <p>Welcome to my final project for ALX Software Engineering! This 3D ray-casting game is developed using SDL2 and C, chosen for their low-level access to hardware and graphics, as well as for learning purposes regarding game development and ray tracing.</p>
+    
+    <h3>Features:</h3>
+    <ul>
+        <li>Player Movement: Implementing player movement and collision detection with walls.</li>
+        <li>Ray Casting: Using ray casting to project a 3D world onto a 2D projection plane.</li>
+        <li>Texture Rendering: Rendering textures on walls using SDL2 and C.</li>
+    </ul>
+    
+    <h3>About:</h3>
+    <p>This project was inspired by a passion for game development and a desire to learn low-level programming with SDL2 and C. It is a Portfolio Project for Holberton School. You can find more about Holberton School <a href="https://holbertonschool.com">here</a>.</p>
+    
+    <h3>Development Team:</h3>
+     <p>Kamogelo Ellen Kganakga</p>
+
+<h3>Socials:</h3>
+
+    <ul>
+        <li><a href="https://www.linkedin.com/in/kamogelokganakga/">LinkedIn</a></li>
+        <li><a href="https://github.com/kamoellen">GitHub</a></li>
+        <li><a href="https://twitter.com">Twitter</a></li>
+    </ul>
+    
+    <h3>GitHub Repository:</h3>
+    <p><a href="https://github.com/kamoellen">GitHub Repository Link</a></p>
+    
+    <h3>Development Process:</h3>
+    <p>The development process was challenging but rewarding. I pushed myself to learn about game development and programming in general. Through perseverance, I was able to tough it out and it was not in vain. The small successes made me more determined to keep pushing through and improve the game as the days went by.</p>
+</div>
+<div class="hero">
+    <img src="hero.png" alt="Hero Image">
+</div>
+
+<footer>
+    &copy; 2024 ALX Software Engineering. All rights reserved.
+</footer>
+</body>
+</html>
